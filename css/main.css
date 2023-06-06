@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Product Sans";
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@font-face {
+  font-family: Product Sans;
+  src: url(../../assets/fonts/ProductSansBold.ttf);
+  src: url(../../assets/fonts/ProductSansBoldItalic.ttf);
+  src: url(../../assets/fonts/ProductSansItalic.ttf);
+  src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+.body {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 375px;
+}
+
+.main {
+  position: relative;
+}
+
+.nav {
+  width: 847px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 42px;
+  z-index: 99;
+  position: relative;
+}
+.nav__logo img {
+  width: 162.19px;
+  height: 45px;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+.nav__list ul {
+  display: flex;
+}
+.nav__list ul li {
+  margin-right: 30px;
+}
+.nav__list ul li a {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+}
+.nav__list ul li:hover a {
+  color: #F16214;
+}
+
+.register {
+  width: 80px;
+  height: 30px;
+  background: #F16214;
+  border: 1.5px solid #F16214;
+  border-radius: 120px;
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.hero {
+  max-width: 1170px;
+  height: 992px;
+}
+.heroimg {
+  width: 958px;
+  height: 958px;
+  z-index: 1;
+}

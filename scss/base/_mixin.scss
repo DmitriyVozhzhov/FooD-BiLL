@@ -1,0 +1,15 @@
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+@mixin fs13 {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+@mixin fs16 {
+    font-size: 16px;
+    line-height: 19px;
+  }
