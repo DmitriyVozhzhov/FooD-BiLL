@@ -1,0 +1,1 @@
+Food Bill maket - https://www.figma.com/file/GPVcflyxYPTyGkol8KRkz9/tg%3A-%40maket_figma-Food-Bill-%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD?type=design&node-id=1-2&t=jpvm48jtiZZneUTI-0
