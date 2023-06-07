@@ -1,6 +1,6 @@
 .hero {
     max-width: 1170px;
-    height: 850px;
+    height: 800px;
     position: relative;
  
 
@@ -22,18 +22,8 @@
             display: inline-block;
            margin-bottom: 40px;
            max-width: 570px;
-           height: 66px;
            color: $gray;
            font-weight: 400;
-        }
-
-        .getStarted {
-            @include btn;
-            width: 170px;
-            margin-bottom: 40px;
-
-
-
         }
     }
 

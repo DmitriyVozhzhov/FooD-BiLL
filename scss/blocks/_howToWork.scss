@@ -1,0 +1,18 @@
+.howToWork {
+    height: 700px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    &__img {
+        width: 50%;
+        img {
+            max-width: 1039px;
+            max-height: 694px;
+            position: absolute;
+            left: -300px;
+        }
+    }
+    &__text {
+        width: 50%;
+    }
+}

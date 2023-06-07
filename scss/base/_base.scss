@@ -19,3 +19,20 @@
 .main {
     position: relative;
 }
+
+//main btn
+
+.main-btn {
+    @include btn;
+    width: 170px;
+    margin-bottom: 40px;
+    &:hover {
+        padding-left: 70px;
+        transition: all 2s;
+        background: #c24e0e;
+        p {
+            transform: translateX(-118px) rotate(720deg) ;
+            transition: all 2s;
+        }
+    }
+}

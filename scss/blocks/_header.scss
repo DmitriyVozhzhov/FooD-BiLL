@@ -46,4 +46,9 @@
     color: $white;
     @include fs13;
     cursor: pointer;
+    &:hover {
+        background-color: #c24e0e;
+        transition: all 1s;
+        transform: scale(1.1);
+    }
 }

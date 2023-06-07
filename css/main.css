@@ -37,6 +37,47 @@ a {
   position: relative;
 }
 
+.main-btn {
+  height: 50px;
+  background: #F16214;
+  border: none;
+  border-radius: 54px;
+  position: relative;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  text-align: start;
+  padding-left: 19px;
+  cursor: pointer;
+  width: 170px;
+  margin-bottom: 40px;
+}
+.main-btn p {
+  width: 40px;
+  height: 40px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  top: 5px;
+  left: 123px;
+}
+.main-btn p img {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+}
+.main-btn:hover {
+  padding-left: 70px;
+  transition: all 2s;
+  background: #c24e0e;
+}
+.main-btn:hover p {
+  transform: translateX(-118px) rotate(720deg);
+  transition: all 2s;
+}
+
 .nav {
   width: 847px;
   display: flex;
@@ -80,10 +121,15 @@ a {
   line-height: 16px;
   cursor: pointer;
 }
+.register:hover {
+  background-color: #c24e0e;
+  transition: all 1s;
+  transform: scale(1.1);
+}
 
 .hero {
   max-width: 1170px;
-  height: 850px;
+  height: 800px;
   position: relative;
 }
 .hero__title {
@@ -104,40 +150,8 @@ a {
   display: inline-block;
   margin-bottom: 40px;
   max-width: 570px;
-  height: 66px;
   color: #888888;
   font-weight: 400;
-}
-.hero__title .getStarted {
-  height: 50px;
-  background: #F16214;
-  border: none;
-  border-radius: 54px;
-  position: relative;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 150%;
-  color: #FFFFFF;
-  text-align: start;
-  padding-left: 19px;
-  cursor: pointer;
-  width: 170px;
-  margin-bottom: 40px;
-}
-.hero__title .getStarted p {
-  width: 40px;
-  height: 40px;
-  background: #FFFFFF;
-  border-radius: 50%;
-  border: none;
-  position: absolute;
-  top: 5px;
-  left: 123px;
-}
-.hero__title .getStarted p img {
-  position: absolute;
-  top: 35%;
-  left: 45%;
 }
 .hero__img {
   max-width: 958px;
@@ -163,6 +177,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.social-networks a:hover {
+  transform: scale(1.2);
 }
 .social-networks a:not(:last-child) {
   margin-right: 23px;
@@ -216,4 +233,23 @@ a {
   line-height: 16px;
   color: #888888;
   font-weight: 400;
+}
+
+.howToWork {
+  height: 700px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.howToWork__img {
+  width: 50%;
+}
+.howToWork__img img {
+  max-width: 1039px;
+  max-height: 694px;
+  position: absolute;
+  left: -300px;
+}
+.howToWork__text {
+  width: 50%;
 }
