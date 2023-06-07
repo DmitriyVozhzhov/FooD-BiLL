@@ -1,9 +1,11 @@
 //Base
 @import './base/reset';
 @import './base/vars';
-@import './base/mixin';
+@import './base/mixins';
 @import './base/base';
 
 //Blocks
 @import './blocks/header';
 @import './blocks/hero';
+@import './blocks/social-networks';
+@import './blocks/timeAndLocation';

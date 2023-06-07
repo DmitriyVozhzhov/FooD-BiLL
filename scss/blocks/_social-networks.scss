@@ -1,0 +1,23 @@
+.social-networks {
+    width: 229px;
+    height: 40px;
+    display: flex;
+
+    a {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: rgba(241, 98, 20, 0.15);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:not(:last-child){
+            margin-right: 23px;
+        }
+        i {
+            font-size: 16px;
+            color: $base-color;
+            
+        }
+    }
+}

@@ -1,0 +1,61 @@
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+@mixin fs13 {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+@mixin fs16 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+
+// btn mixin
+  @mixin btn-img {
+    img {
+      position: absolute;
+      top: 35%;
+      left: 45%;
+  }
+  }
+  @mixin btn-p {
+    p {
+      width: 40px;
+      height: 40px;
+      background: $white;
+      border-radius: 50%;
+      border: none;
+      position: absolute;
+      top: 5px;
+      left: 123px;
+      @include btn-img;  
+  }
+  }
+  @mixin btn {
+    height: 50px;
+    background: $base-color;
+    border: none;
+    border-radius: 54px;
+    position: relative;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: $white;
+    text-align: start;
+    padding-left: 19px;
+    cursor: pointer;
+    @include btn-p;
+  }
+  //
+
+  @mixin circleOrange40 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: $base-color;
+  }
