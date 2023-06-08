@@ -9,10 +9,26 @@
             max-width: 1039px;
             max-height: 694px;
             position: absolute;
-            left: -300px;
+            left: -353px;
         }
     }
     &__text {
         width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .sectionCategory {
+            @include sectionCategory;
+            margin-bottom: 6px;
+        }
+        .sectionTitle-h2 {
+            @include sectionTitleH2;
+            margin-bottom: 45px;
+        }
+       
+        .sectionText {
+            @include sectionText;
+            margin-bottom: 29px;
+        }
     }
 }

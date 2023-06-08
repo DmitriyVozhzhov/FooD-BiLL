@@ -53,9 +53,32 @@
   }
   //
 
+
   @mixin circleOrange40 {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background: $base-color;
+  }
+
+// section text base style
+  @mixin sectionTitleH2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: $black;
+  }
+
+  @mixin sectionCategory {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: $base-color;
+  }
+
+  @mixin sectionText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $gray;
   }
