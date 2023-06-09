@@ -1,0 +1,58 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    &__text {
+
+        .sectionCategory {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            @include sectionCategory;
+        }
+        .sectionTitle-h2 {
+            @include sectionTitleH2;
+            margin-bottom: 50px;
+        }
+    }
+    &__cards {
+        display: flex;
+        flex-direction: row;
+        :not(:last-child){
+            margin-right: 30px;
+        }
+        .card {
+            @include baseCard;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 20px;
+            &_img {
+                @include circleOrange80;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+
+            }
+            h3 {
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 32px;
+                color: $black;
+                margin: 0;
+            }
+            p {
+                @include sectionText;
+                text-align: center;
+                line-height: 26px;
+                margin: 0;
+            }
+        }
+    }
+}

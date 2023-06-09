@@ -1,0 +1,33 @@
+.howToWork {
+    height: 700px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    &__img {
+        width: 50%;
+        img {
+            max-width: 1039px;
+            max-height: 694px;
+            position: absolute;
+            left: -353px;
+        }
+    }
+    &__text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .sectionCategory {
+            @include sectionCategory;
+        }
+        .sectionTitle-h2 {
+            @include sectionTitleH2;
+            margin-bottom: 45px;
+        }
+       
+        .sectionText {
+            @include sectionText;
+            margin-bottom: 29px;
+        }
+    }
+}

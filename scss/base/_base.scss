@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Product Sans;
+    src: url(../../assets/fonts/ProductSansBold.ttf);
+    src: url(../../assets/fonts/ProductSansBoldItalic.ttf);
+    src: url(../../assets/fonts/ProductSansItalic.ttf);
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+
+.body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: $white;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.main {
+    position: relative;
+}
+
+//main btn
+
+.main-btn {
+    @include btn;
+    width: 170px;
+    margin-bottom: 40px;
+    p {
+        left: 123px;
+    }
+    &:hover {
+        padding-left: 70px;
+        transition: all 2s;
+        background: #c24e0e;
+        p {
+            transform: translateX(-118px) rotate(720deg) ;
+            transition: all 2s;
+        }
+    }
+}
+
+.main-btn_second {
+    @include btn;
+    width: 200px;
+    margin-bottom: 40px;
+    p {
+        left: 155px;
+    }
+    &:hover {
+        padding-left: 60px;
+        transition: all 2s;
+        background: #c24e0e;
+        p {
+            transform: translateX(-150px) rotate(720deg) ;
+            transition: all 2s;
+        }
+    }
+}

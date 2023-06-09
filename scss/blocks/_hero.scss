@@ -1,0 +1,41 @@
+.hero {
+    max-width: 1170px;
+    height: 800px;
+    position: relative;
+ 
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        padding-top: 141px;
+        h1 {
+            display: block;
+            width: 450px;
+            height: 273px;
+            font-weight: 700;
+            font-size: 72px;
+            line-height: 88px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            display: inline-block;
+           margin-bottom: 40px;
+           max-width: 570px;
+           color: $gray;
+           font-weight: 400;
+        }
+    }
+
+    &__img {
+        max-width: 958px;
+        max-height: 958px;
+       img {
+        z-index: 1;
+        position: absolute;
+        top: -92px;
+        left: 275px;
+       }
+    }
+
+}

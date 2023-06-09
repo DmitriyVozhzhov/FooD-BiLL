@@ -1,0 +1,54 @@
+.nav {
+    width: 847px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 42px;
+    z-index: 99;
+    position: relative;
+    
+    &__logo {
+        img {
+            width: 162.19px;
+            height: 45px;
+        }
+    }
+
+    &__list{
+        display: flex;
+        align-items: center;
+        ul {
+            display: flex;
+            li {
+                    margin-right: 30px;
+                
+                a {
+                    @include fs16;
+                    font-weight: 700;
+                }
+                &:hover {
+                    a {
+                        color: $base-color;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+.register {
+    width: 80px;
+    height: 30px;
+    background: $base-color;
+    border: 1.5px solid $base-color;
+    border-radius: 120px;
+    color: $white;
+    @include fs13;
+    cursor: pointer;
+    &:hover {
+        background-color: #c24e0e;
+        transition: all 1s;
+        transform: scale(1.1);
+    }
+}

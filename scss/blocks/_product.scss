@@ -1,0 +1,35 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 97px 0 100px 0;
+    &__text {
+        margin-bottom: 55px;
+        .sectionCategory {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            @include sectionCategory;
+        }
+        .sectionTitle-h2 {
+            @include sectionTitleH2;
+            margin-bottom: 55px;
+        }
+    }
+    &__cards {
+        display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        .card {
+            
+            @include CardItem;
+            margin-bottom: 27px;
+        }
+    }
+    .main-btn_second {
+        width: 200px;
+
+    }
+}
