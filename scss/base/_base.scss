@@ -26,12 +26,33 @@
     @include btn;
     width: 170px;
     margin-bottom: 40px;
+    p {
+        left: 123px;
+    }
     &:hover {
         padding-left: 70px;
         transition: all 2s;
         background: #c24e0e;
         p {
             transform: translateX(-118px) rotate(720deg) ;
+            transition: all 2s;
+        }
+    }
+}
+
+.main-btn_second {
+    @include btn;
+    width: 200px;
+    margin-bottom: 40px;
+    p {
+        left: 155px;
+    }
+    &:hover {
+        padding-left: 60px;
+        transition: all 2s;
+        background: #c24e0e;
+        p {
+            transform: translateX(-150px) rotate(720deg) ;
             transition: all 2s;
         }
     }

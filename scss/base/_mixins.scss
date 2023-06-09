@@ -32,7 +32,6 @@
       border: none;
       position: absolute;
       top: 5px;
-      left: 123px;
       @include btn-img;  
   }
   }
@@ -61,6 +60,12 @@
     background: $base-color;
   }
 
+  @mixin circleOrange80 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(241, 98, 20, 0.15);
+  }
 // section text base style
   @mixin sectionTitleH2 {
     font-weight: 700;
@@ -74,6 +79,7 @@
     font-size: 14px;
     line-height: 17px;
     color: $base-color;
+    margin-bottom: 6px;
   }
 
   @mixin sectionText {
@@ -81,4 +87,21 @@
     font-size: 16px;
     line-height: 24px;
     color: $gray;
+  }
+
+  // base card style
+
+  @mixin baseCard {
+    width: 370px;
+    height: 395px;
+    border: 2px solid #EEEEEE;
+    border-radius: 60px 0px;
+  }
+
+  @mixin CardItem {
+    width: 370px;
+    height: 419px;
+    background: $white;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 50px 0px;
   }
